@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oportunidades</title>
+    <link href="oportunidade.css" rel="stylesheet" type="text/css">
+
+
+  
+      
+  </head>
+  <style>
+  #background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("logo.webp");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    opacity: 10;
+    z-index: -1; }
+  </style>
+  <div id="background-image"></div>
+
+
+  <main>
+
+    
+      <section class="formulario">
+      <h2>OPORTUNIDADES</h2>
+      <form>
+
+        <label for="particular">Paticular:</label>
+        <input type="checkbox" id="particular" name="particular">
+
+        <label for="nome_oportunidade">Nome da Oportunidade:</label>
+        <input type="text" id="nome_oportunidade" name="nome_oportunidade">
+        
+        <label for="valor">Valor</label>
+        <input type="number" id="valor" name="valor">
+
+        <label for="fase">Fase</label>
+        <select id="fase" name="fase">
+         <option value="prospecting">Prospecting</option>
+         <option value="qualifying">Qualifying</option>
+         <option value="needs-analysis">Needs Analysis</option>
+         <option value="value-proposition">Value Proposition</option>
+         <option value="decision-makers">Decision Makers</option>
+         <option value="proposal-sent">Proposal Sent</option>
+         <option value="closed-won">Closed Won</option>
+         <option value="closed-lost">Closed Lost</option>
+        </select>
+
+        <label for="tipo">Tipo</label>
+        <select id="tipo" name="tipo">
+         <option value="CustomerUpgrade"> Existing Customer- Upgrade </option>
+         <option value="CustomerReplacement"> Existing Customer- Replacement </option>
+         <option value="CustomerDowngrade"> Existing Customer- Downgrade </option>
+         <option value="NewCustomer">New Customer</option>
+         </select>
+
+        <button type="submit" class="button">Salvar</button>
+ 
+      </form>
+      </section>
+  </main>
+
+</html
