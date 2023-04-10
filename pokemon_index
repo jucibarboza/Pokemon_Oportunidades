@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Club</title>
+    <link href="tabpokemon.css" rel="stylesheet" type="text/css">
+   
+      
+  </head>
+ <center>
+    <header>
+    
+      <img src="imagem/logo.webp"alt="logo"style="height: 200px;">
+    </header>
+
+  </center> 
+
+  <main>  
+
+
+    <section class="formulario">
+      <h2>Cadastro</h2>
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome, Mestre."><br>
+
+        <label for="id_mestre">ID Mestre:</label>
+        <input type="text" id="id_mestre" name="id_mestre" placeholder="Digite o seu ID Mestre"><br>
+
+        <label for="regiao">Região de Atuação:</label>
+        <select id="regiao" name="regiao">
+          <option value="Kanto">Kanto</option>
+          <option value="Johto">Johto</option>
+          <option value="Hoenn">Hoenn</option>
+          <option value="Sinnoh">Sinnoh</option>
+          <option value="Unova">Unova</option>
+          <option value="Kalos">Kalos</option>
+        </select><br>
+
+        <button type="submit" class="button">Cadastrar</button>
+      </form>
+    </section>
+
+     
+    <section class="formulario">
+      <h2>Login</h2>
+      <form>
+        <label for="id_mestre">ID Mestre:</label>
+        <input type="text" id="id_mestre" name="id_mestre" placeholder="Digite o seu ID Mestre"><br>
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" placeholder="Digite a sua senha"><br>
+
+        <button type="submit" class="button">Entrar</button><br/>
+
+        <a href="cadastro.html"   type="submit" class="button">Cadastrar Ponkemon</a>
+      </form>
+    </section>
+
+    
+  </main>
+ 
+  <footer class="footer-page1">
+  
+
+    <p id="paragrafo"> Jucilene Barboza &copy; 2023 </p>
+
+ </footer>
+</html
