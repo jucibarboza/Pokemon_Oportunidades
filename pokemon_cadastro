@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Capturado</title>
+    <link href="tabpokemon.css" rel="stylesheet" type="text/css">
+   
+      
+  </head>
+ <center>
+    <header>
+    <img src="imagem/logo.webp"alt="logo"style="height: 150px;">
+    </header>
+
+  </center> 
+
+  <main>
+
+    
+      <section class="formulario">
+      <h2>Cadastro de captura</h2>
+      <form>
+
+        <label for="nome">Nome do Pokémon:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite o nome do seu pokémon">
+
+        <label for="data_captura">Data da Captura:</label>
+        <input type="date" id="data_captura" name="data_captura">
+        
+        <label for="pokebolas">Quantas pokebolas utilizadas?</label>
+        <input type="number" id="pokebolas" name="pokebolas">
+
+        <label for="tipo">Tipo</label>
+        <select id="tipo" name="tipo">
+          <option value="Fogo">Fogo</option>
+          <option value="Água">Água</option>
+          <option value="Ar">Ar</option>
+          <option value="Planta">Planta</option>
+          <option value="Unova">Elétrico</option>
+          <option value="Gelo">Kalos</option>
+        </select>
+
+        <label for="informacao">Mais inforçãoes</label>
+        <input type="text" id="informacao" name="informacao" placeholder="Alguma informação a acrescenar sobre a captura?">
+
+        <button type="submit" class="button">Cadastrar</button>
+      </form>
+    </section>
+
+    
+  </main>
+
+</html
